@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/be1270b682247e2987ff53dcfb90ef6931e86191/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_4f631656a166ed49966271a06cc52765ad51b64e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/b6b80350fe6c7d3d88425cbb8982e26e56bf9f72/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_e55ad45eb2954953007451406664cbf8b10eae53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/workspace/lgx/github/terminal/35051/app/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/zbar_1922f48a509475df537a7c2d017af4a4ecf0c055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/94588a06ca9ccb08197b38996068268ed1473f7c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_a2eb5c5847b8a983cd59a35137b177a1f5571d8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/7bb4e9cc6aff26a202b2d9836b632b409096f282/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_b8deea01bbb1132e711eda62672666baa94b9a42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/593d3444269bfa724fb6f57a296ea149abf05484/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_4d9783f833ba4fa98531285537b69d9630aa9afd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/3a41c9aa3b91ea02f96e2c36b82c8db43cc71a4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_7a9704b2d78ed28fc5a7858f6856237766f8a304.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/0e26b85a25f924ee37099d6f80db4220a4d5ff65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_54e5716868912b064b38c9d868c880a53c4913a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/workspace/lgx/github/terminal/35051/app/libs/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/core-3.2.1_b8ff3b1d07cd5be0fba41bc1c7a3db4adcb084b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_b6fff97a7879580c0ac39037e6e555fef9727ec3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/workspace/lgx/github/terminal/35051/app/libs/smartdevicesdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="53085f06172feca5cd4ac4e300f7b473913c6d10">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/smartdevicesdk_d264272826da0bebd3adde402e4357c2dd60e810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/a243dcd74578fc7844a7eeff8ef688ef1191b54e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_b06759d9378b02a52366fefbe41a639f1f970e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lgx/.android/build-cache/202f9200962cca7f2bb04c56b4816e3f031dd9f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/pre-dexed/debug/classes_defe9a8e60d0cda028ee500afcda071ef847a6eb.jar" />
+    </item>
+
+</items>
