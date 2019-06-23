@@ -51,7 +51,7 @@
             <!--</intent-filter>-->
         <!--</activity>-->
         <activity
-            android:name="com.smartdevice.testd3505.ProjectSelectActivity"
+            android:name="com.smartdevice.testd3505.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -79,6 +79,8 @@
         <activity android:name="com.smartdevice.testd3505.SerialPortSettingActivity" >
         </activity>
         <activity android:name="com.smartdevice.testd3505.DeviceInfoActivity" >
+        </activity>
+        <activity android:name="com.smartdevice.testd3505.ProjectSelectActivity" >
         </activity>
         <activity
             android:name="com.smartdevice.testd3505.ZBarScannerActivity"

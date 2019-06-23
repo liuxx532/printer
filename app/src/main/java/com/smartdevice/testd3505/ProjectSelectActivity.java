@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.smartdevicesdk.adapter.SpinnerManage;
 import com.smartdevicesdk.printer.PrinterClassSerialPort3505;
 import com.smartdevicesdk.printer.PrinterCommand;
 
@@ -72,6 +73,11 @@ public class ProjectSelectActivity extends Activity {
         printerBtn = (Button) findViewById(R.id.printerBtn);
 
         setOnClick();
+
+        // 获取当前默认的打印机的串口和波特率
+        //get the default printer serial port and baud rate
+        device = MainActivity.devInfo.getPrinterSerialport();
+        baudrate = MainActivity.devInfo.getPrinterBaudrate();
 
         // 初始化打印类 Initialization print class
         printerClass = new PrinterClassSerialPort3505(device, baudrate, mhandler);

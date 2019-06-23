@@ -177,6 +177,13 @@
                 android:layout_height="wrap_content"
                 android:text="打印3" />
 
+            <Button
+                android:id="@+id/btnPrintJump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="跳转" />
+
         </LinearLayout>
 
         <ScrollView

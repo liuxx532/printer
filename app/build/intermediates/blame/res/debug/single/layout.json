@@ -4,12 +4,12 @@
         "source": "/Users/lgx/workspace/lgx/github/terminal/35051/app/src/main/res/layout/wintone_camera_for_4_3.xml"
     },
     {
-        "merged": "/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/res/merged/debug/layout/plateidcfg.xml",
-        "source": "/Users/lgx/workspace/lgx/github/terminal/35051/app/src/main/res/layout/plateidcfg.xml"
-    },
-    {
         "merged": "/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/res/merged/debug/layout/activity_idcard.xml",
         "source": "/Users/lgx/workspace/lgx/github/terminal/35051/app/src/main/res/layout/activity_idcard.xml"
+    },
+    {
+        "merged": "/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/res/merged/debug/layout/plateidcfg.xml",
+        "source": "/Users/lgx/workspace/lgx/github/terminal/35051/app/src/main/res/layout/plateidcfg.xml"
     },
     {
         "merged": "/Users/lgx/workspace/lgx/github/terminal/35051/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",

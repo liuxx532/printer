@@ -113,7 +113,7 @@ public class PrinterActivity extends Activity implements OnClickListener, OnItem
 	private int baudrate = 115200;// 38400
 	private boolean close_printer = true;
 	
-	private Button btnPrintModel1, btnPrintModel2, btnPrintModel3;
+	private Button btnPrintModel1, btnPrintModel2, btnPrintModel3, btnPrintJump;
 	
 	Handler mhandler = new Handler() {
 		public void handleMessage(Message msg) {
@@ -281,6 +281,7 @@ public class PrinterActivity extends Activity implements OnClickListener, OnItem
 		btnPrintModel1 = (Button) findViewById(R.id.btnPrintModel1);
 		btnPrintModel2 = (Button) findViewById(R.id.btnPrintModel2);
 		btnPrintModel3 = (Button) findViewById(R.id.btnPrintModel3);
+		btnPrintJump = (Button) findViewById(R.id.btnPrintJump);
 		btnOpenPic = (Button) findViewById(R.id.btnOpenPic);
 		btnPrintPic = (Button) findViewById(R.id.btnPrintPic);
 		checkBoxAuto = (CheckBox) findViewById(R.id.checkBoxTimer);
@@ -297,6 +298,7 @@ public class PrinterActivity extends Activity implements OnClickListener, OnItem
 		btnPrintModel1.setOnClickListener(this);
 		btnPrintModel2.setOnClickListener(this);
 		btnPrintModel3.setOnClickListener(this);
+		btnPrintJump.setOnClickListener(this);
 		btnOpenDevice.setOnClickListener(this);
 		btnQrCode.setOnClickListener(this);
 		btnWordToPic.setOnClickListener(this);
@@ -579,11 +581,23 @@ public class PrinterActivity extends Activity implements OnClickListener, OnItem
 			printPurcase(false, true);
 			break;
 
+		case R.id.btnPrintJump:
+			// 打印模板三 print mode three
+			jump2Select();
+			break;
+
 		default:
 			break;
 		}
 		
 	}
+
+	private void jump2Select(){
+		Intent intent = new Intent();
+		intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+		intent.setClass(PrinterActivity.this, ProjectSelectActivity.class);
+		startActivity(intent);
+	};
 
 	private void printPurcase(boolean hasStartPic, boolean hasEndPic) {
 		SupermakerBill bill = PrinterHelper.getInstance(this).getSupermakerBill(hasStartPic, hasEndPic);
